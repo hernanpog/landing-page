@@ -6,16 +6,15 @@
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
 	<!-- Style -->
+	<link rel="stylesheet" href="style.css">
 	<title>Landing Page</title>
 </head>
 <body>
 	<header>
 		<div class="header-container">
-			<div class="header-logo">
-				<img src="" alt="">
-			</div>
+			<p class="header-logo">Header Logo</p>
 			<ul class="header-links">
 				<li>Home</li>
 				<li>Contact</li>
@@ -25,31 +24,35 @@
 	</header>
 	<main>
 		<section class="hero-section">
-			<div class="hero-content">
-				<h1 class="hero-title">This Website is Awesome</h1>
-				<p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam neque exercitationem. Et dolorum sit officia dolore dolor ipsa eaque!</p>
-				<button class="signup-button">Sign Up</button>
+			<div class="hero-container">
+				<div class="hero-content">
+					<h1 class="hero-title">This Website is Awesome</h1>
+					<p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam neque exercitationem. Et dolorum sit officia dolore dolor ipsa eaque!</p>
+					<button class="signup-button">Sign Up</button>
+				</div>
+				<div class="hero-img">
+					<img src="./images/pexels-fauxels-3183150.jpg" alt="">
+				</div>
 			</div>
-			<div class="hero-img"></div>
 		</section>
-		<section>
-			<h2>Some random Information</h2>
-			<div>
-				<div class="card">
-					<img src="" alt="">
+		<section class="info-section">
+			<h2 class="info-title">Some random Information.</h2>
+			<div class="info-container">
+				<div class="info">
+					<img src="./images/pexels-christina-morillo-1181406.jpg" alt="">
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, hic?</p>
 				</div>
-				<div class="card">
-					<img src="" alt="">
+				<div class="info">
+					<img src="./images/pexels-fauxels-3183159.jpg" alt="">
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, excepturi.</p>
 				</div>
-				<div class="card">
-					<img src="" alt="">
+				<div class="info">
+					<img src="./images/pexels-fauxels-3184291.jpg" alt="">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, vitae.
 					</p>
 				</div>
-				<div class="card">
-					<img src="" alt="">
+				<div class="info">
+					<img src="./images/pexels-marcus-aurelius-4063792.jpg" alt="">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sint!</p>
 				</div>
 			</div>
@@ -67,7 +70,7 @@
 					<h2 class="calltoaction-title">Call to action! It's time</h2>
 					<p class="calltoaction-instruction">Sign up for our product by clicking that button right over there!</p>
 				</div>
-				<button class="signup-button">Sign up</button>
+				<button class="signup-button cta-button">Sign up</button>
 			</div>
 		</section>
 	</main>
